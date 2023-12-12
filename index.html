@@ -4,44 +4,53 @@
   <title>bsingr</title>
   <style>
 
-  body { margin: 5em; background-color: #fff; cursor: default;}
+  body { cursor: default; padding: 0; margin: 0; }
+  .content { margin: 10vh 10vw;  display: flex; flex-wrap: wrap; align-items: stretch; }
   h1 * { vertical-align: middle; }
   h1 { color: #ddd;}
   h1 span { font-size: 8em; font-weight: normal; }
   @media (max-width: 50em) { h1 span { font-size: 3em; } }
   a { color: #000; }
-  ul { margin: 2em 0; }
+  ul { margin: 1vh; }
   li { list-style-type: none; margin-bottom: 0.5em; }
-
+  
   </style>
 
+  <link rel="stylesheet" href="animated-background.css">
   <link rel="icon" type="image/png" href="images/favicon.16.png" sizes="16x16" />
   <link rel="icon" type="image/png" href="images/favicon.32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="images/favicon.48.png" sizes="48x48" />
   <link rel="icon" type="image/png" href="images/favicon.64.png" sizes="64x64" />
 </head>
 <body>
-  <h1>jens <span>b</span>i<span>s</span>s<span>ing</span>e<span>r</span></h1>
-  <ul>
-    <li>Web</li>
-    <li>Mobile</li>
-    <li>Native</li>
-    <li>Front Ends</li>
-    <li>UX</li>
-    <li>DevOps / SRE</li>
-  </ul>
-  <ul>
-    <li>React / HTML5 / CSS3 / Javascript</li>
-    <li>Ruby on Rails</li>
-    <li>Node.js / Go</li>
-    <li>Amazon Web Services / Terraform</li>
-    <li>Google Firebase</li>
-    <li>Kubernetes / Docker</li>
-    <li>OS X / iOS / Cocoa / Objective-C</li>
-  </ul>
-  <ul style="float: right;">
-    <li><a href="https://github.com/bsingr">github.com/bsingr</a></li>
-    <li><a href="https://twitter.com/bsingr">twitter.com/bsingr</a></li>
-  </ul>
+  <div class="animated-bg">
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+  </div>
+  <section class="content">
+    <h1 style="flex: 1;">jens <span>b</span>i<span>s</span>s<span>ing</span>e<span>r</span></h1>
+  </section>
+  <section class="content">
+    <ul>
+      <li>Web</li>
+      <li>Mobile</li>
+      <li>Native</li>
+      <li>Front Ends</li>
+      <li>UX</li>
+      <li>DevOps / SRE</li>
+    </ul>
+    <ul style="flex: 1;">
+      <li>React / HTML5 / CSS3 / Javascript</li>
+      <li>Ruby on Rails</li>
+      <li>Node.js / Go</li>
+      <li>Amazon Web Services / Terraform</li>
+      <li>Google Firebase</li>
+      <li>Kubernetes / Docker</li>
+      <li>OS X / iOS / Cocoa / Objective-C</li>
+    </ul>
+    <ul style="align-self: flex-end;">
+      <li><a href="https://github.com/bsingr">github.com/bsingr</a></li>
+      <li><a href="https://www.linkedin.com/in/jensbissinger">linkedin.com/in/jensbissinger</a></li>
+    </ul>  
+  </section>
 </body>
 </html>

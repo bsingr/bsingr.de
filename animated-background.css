@@ -1,0 +1,407 @@
+.animated-bg {
+  top: 0;
+  left: 3vw;
+  width: 10vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1000;
+}
+
+.animated-bg div {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #ffa1e3;
+  border-radius: 50%;
+}
+
+.animated-bg div:nth-child(1) {
+  opacity: 0.4936;
+  transform: translate(57.9122%, -10px) scale(0.4891);
+  animation: fall-1 18s -22s linear infinite;
+}
+@keyframes fall-1 {
+  76.141% {
+    transform: translate(64.4269%, 76.141vh) scale(0.4891);
+  }
+  to {
+    transform: translate(61.16955%, 100vh) scale(0.4891);
+  }
+}
+.animated-bg div:nth-child(2) {
+  opacity: 0.9638;
+  transform: translate(89.3563%, -10px) scale(0.9202);
+  animation: fall-2 17s -7s linear infinite;
+}
+@keyframes fall-2 {
+  48.279% {
+    transform: translate(80.7904%, 48.279vh) scale(0.9202);
+  }
+  to {
+    transform: translate(85.07335%, 100vh) scale(0.9202);
+  }
+}
+.animated-bg div:nth-child(3) {
+  opacity: 0.1379;
+  transform: translate(3.3045%, -10px) scale(0.0789);
+  animation: fall-3 29s -3s linear infinite;
+}
+@keyframes fall-3 {
+  60.718% {
+    transform: translate(4.2628%, 60.718vh) scale(0.0789);
+  }
+  to {
+    transform: translate(3.78365%, 100vh) scale(0.0789);
+  }
+}
+.animated-bg div:nth-child(4) {
+  opacity: 0.0297;
+  transform: translate(5.5527%, -10px) scale(0.7203);
+  animation: fall-4 13s -2s linear infinite;
+}
+@keyframes fall-4 {
+  69.963% {
+    transform: translate(10.087%, 69.963vh) scale(0.7203);
+  }
+  to {
+    transform: translate(7.81985%, 100vh) scale(0.7203);
+  }
+}
+.animated-bg div:nth-child(5) {
+  opacity: 0.9379;
+  transform: translate(7.949%, -10px) scale(0.3485);
+  animation: fall-5 25s -22s linear infinite;
+}
+@keyframes fall-5 {
+  68.189% {
+    transform: translate(7.5654%, 68.189vh) scale(0.3485);
+  }
+  to {
+    transform: translate(7.7572%, 100vh) scale(0.3485);
+  }
+}
+.animated-bg div:nth-child(6) {
+  opacity: 0.7814;
+  transform: translate(33.6082%, -10px) scale(0.5053);
+  animation: fall-6 15s -21s linear infinite;
+}
+@keyframes fall-6 {
+  44.507% {
+    transform: translate(40.2769%, 44.507vh) scale(0.5053);
+  }
+  to {
+    transform: translate(36.94255%, 100vh) scale(0.5053);
+  }
+}
+.animated-bg div:nth-child(7) {
+  opacity: 0.4689;
+  transform: translate(2.36%, -10px) scale(0.2056);
+  animation: fall-7 25s -13s linear infinite;
+}
+@keyframes fall-7 {
+  46.29% {
+    transform: translate(10.516%, 46.29vh) scale(0.2056);
+  }
+  to {
+    transform: translate(6.438%, 100vh) scale(0.2056);
+  }
+}
+.animated-bg div:nth-child(8) {
+  opacity: 0.9228;
+  transform: translate(14.4129%, -10px) scale(1);
+  animation: fall-8 15s -22s linear infinite;
+}
+@keyframes fall-8 {
+  63.854% {
+    transform: translate(14.2076%, 63.854vh) scale(1);
+  }
+  to {
+    transform: translate(14.31025%, 100vh) scale(1);
+  }
+}
+.animated-bg div:nth-child(9) {
+  opacity: 0.7027;
+  transform: translate(69.2312%, -10px) scale(0.8068);
+  animation: fall-9 30s -23s linear infinite;
+}
+@keyframes fall-9 {
+  37.552% {
+    transform: translate(74.2291%, 37.552vh) scale(0.8068);
+  }
+  to {
+    transform: translate(71.73015%, 100vh) scale(0.8068);
+  }
+}
+.animated-bg div:nth-child(10) {
+  opacity: 0.7184;
+  transform: translate(22.5893%, -10px) scale(0.0473);
+  animation: fall-10 21s -13s linear infinite;
+}
+@keyframes fall-10 {
+  74.957% {
+    transform: translate(28.4263%, 74.957vh) scale(0.0473);
+  }
+  to {
+    transform: translate(25.5078%, 100vh) scale(0.0473);
+  }
+}
+.animated-bg div:nth-child(11) {
+  opacity: 0.2794;
+  transform: translate(43.8559%, -10px) scale(0.2368);
+  animation: fall-11 28s -28s linear infinite;
+}
+@keyframes fall-11 {
+  48.767% {
+    transform: translate(47.0965%, 48.767vh) scale(0.2368);
+  }
+  to {
+    transform: translate(45.4762%, 100vh) scale(0.2368);
+  }
+}
+.animated-bg div:nth-child(12) {
+  opacity: 0.0129;
+  transform: translate(52.8185%, -10px) scale(0.75);
+  animation: fall-12 25s -11s linear infinite;
+}
+@keyframes fall-12 {
+  39.3% {
+    transform: translate(57.1431%, 39.3vh) scale(0.75);
+  }
+  to {
+    transform: translate(54.9808%, 100vh) scale(0.75);
+  }
+}
+.animated-bg div:nth-child(13) {
+  opacity: 0.7348;
+  transform: translate(17.4126%, -10px) scale(0.0756);
+  animation: fall-13 26s -10s linear infinite;
+}
+@keyframes fall-13 {
+  76.958% {
+    transform: translate(19.7569%, 76.958vh) scale(0.0756);
+  }
+  to {
+    transform: translate(18.58475%, 100vh) scale(0.0756);
+  }
+}
+.animated-bg div:nth-child(14) {
+  opacity: 0.2602;
+  transform: translate(85.1032%, -10px) scale(0.2365);
+  animation: fall-14 15s -20s linear infinite;
+}
+@keyframes fall-14 {
+  76.179% {
+    transform: translate(80.128%, 76.179vh) scale(0.2365);
+  }
+  to {
+    transform: translate(82.6156%, 100vh) scale(0.2365);
+  }
+}
+.animated-bg div:nth-child(15) {
+  opacity: 0.3965;
+  transform: translate(91.4549%, -10px) scale(0.8492);
+  animation: fall-15 19s -10s linear infinite;
+}
+@keyframes fall-15 {
+  79.83% {
+    transform: translate(97.3003%, 79.83vh) scale(0.8492);
+  }
+  to {
+    transform: translate(94.3776%, 100vh) scale(0.8492);
+  }
+}
+.animated-bg div:nth-child(16) {
+  opacity: 0.2506;
+  transform: translate(9.6389%, -10px) scale(0.6873);
+  animation: fall-16 30s -23s linear infinite;
+}
+@keyframes fall-16 {
+  63.38% {
+    transform: translate(2.4094%, 63.38vh) scale(0.6873);
+  }
+  to {
+    transform: translate(6.02415%, 100vh) scale(0.6873);
+  }
+}
+.animated-bg div:nth-child(17) {
+  opacity: 0.9628;
+  transform: translate(92.7087%, -10px) scale(0.9687);
+  animation: fall-17 30s -27s linear infinite;
+}
+@keyframes fall-17 {
+  41.702% {
+    transform: translate(99.703%, 41.702vh) scale(0.9687);
+  }
+  to {
+    transform: translate(96.20585%, 100vh) scale(0.9687);
+  }
+}
+.animated-bg div:nth-child(18) {
+  opacity: 0.3039;
+  transform: translate(66.1581%, -10px) scale(0.8571);
+  animation: fall-18 12s -16s linear infinite;
+}
+@keyframes fall-18 {
+  78.094% {
+    transform: translate(66.5608%, 78.094vh) scale(0.8571);
+  }
+  to {
+    transform: translate(66.35945%, 100vh) scale(0.8571);
+  }
+}
+.animated-bg div:nth-child(19) {
+  opacity: 0.8181;
+  transform: translate(32.26%, -10px) scale(0.4491);
+  animation: fall-19 29s -29s linear infinite;
+}
+@keyframes fall-19 {
+  42.476% {
+    transform: translate(41.7848%, 42.476vh) scale(0.4491);
+  }
+  to {
+    transform: translate(37.0224%, 100vh) scale(0.4491);
+  }
+}
+.animated-bg div:nth-child(20) {
+  opacity: 0.6379;
+  transform: translate(95.1853%, -10px) scale(0.3004);
+  animation: fall-20 23s -1s linear infinite;
+}
+@keyframes fall-20 {
+  40.027% {
+    transform: translate(104.6874%, 40.027vh) scale(0.3004);
+  }
+  to {
+    transform: translate(99.93635%, 100vh) scale(0.3004);
+  }
+}
+.animated-bg div:nth-child(21) {
+  opacity: 0.5065;
+  transform: translate(94.0792%, -10px) scale(0.1311);
+  animation: fall-21 10s -10s linear infinite;
+}
+@keyframes fall-21 {
+  60.285% {
+    transform: translate(89.0647%, 60.285vh) scale(0.1311);
+  }
+  to {
+    transform: translate(91.57195%, 100vh) scale(0.1311);
+  }
+}
+.animated-bg div:nth-child(22) {
+  opacity: 0.9194;
+  transform: translate(85.7787%, -10px) scale(0.9553);
+  animation: fall-22 29s -5s linear infinite;
+}
+@keyframes fall-22 {
+  66.242% {
+    transform: translate(80.9419%, 66.242vh) scale(0.9553);
+  }
+  to {
+    transform: translate(83.3603%, 100vh) scale(0.9553);
+  }
+}
+.animated-bg div:nth-child(23) {
+  opacity: 0.9196;
+  transform: translate(44.161%, -10px) scale(0.5649);
+  animation: fall-23 23s -16s linear infinite;
+}
+@keyframes fall-23 {
+  40.263% {
+    transform: translate(45.9332%, 40.263vh) scale(0.5649);
+  }
+  to {
+    transform: translate(45.0471%, 100vh) scale(0.5649);
+  }
+}
+.animated-bg div:nth-child(24) {
+  opacity: 0.445;
+  transform: translate(72.3761%, -10px) scale(0.7383);
+  animation: fall-24 17s -6s linear infinite;
+}
+@keyframes fall-24 {
+  59.558% {
+    transform: translate(72.5082%, 59.558vh) scale(0.7383);
+  }
+  to {
+    transform: translate(72.44215%, 100vh) scale(0.7383);
+  }
+}
+.animated-bg div:nth-child(25) {
+  opacity: 0.9224;
+  transform: translate(49.9894%, -10px) scale(0.9628);
+  animation: fall-25 27s -24s linear infinite;
+}
+@keyframes fall-25 {
+  33.982% {
+    transform: translate(49.6405%, 33.982vh) scale(0.9628);
+  }
+  to {
+    transform: translate(49.81495%, 100vh) scale(0.9628);
+  }
+}
+.animated-bg div:nth-child(26) {
+  opacity: 0.5266;
+  transform: translate(19.6506%, -10px) scale(0.4033);
+  animation: fall-26 18s -23s linear infinite;
+}
+@keyframes fall-26 {
+  40.086% {
+    transform: translate(21.1615%, 40.086vh) scale(0.4033);
+  }
+  to {
+    transform: translate(20.40605%, 100vh) scale(0.4033);
+  }
+}
+.animated-bg div:nth-child(27) {
+  opacity: 0.4544;
+  transform: translate(46.4999%, -10px) scale(0.7828);
+  animation: fall-27 24s -4s linear infinite;
+}
+@keyframes fall-27 {
+  46.445% {
+    transform: translate(55.8622%, 46.445vh) scale(0.7828);
+  }
+  to {
+    transform: translate(51.18105%, 100vh) scale(0.7828);
+  }
+}
+.animated-bg div:nth-child(28) {
+  opacity: 0.4341;
+  transform: translate(62.576%, -10px) scale(0.3061);
+  animation: fall-28 30s -14s linear infinite;
+}
+@keyframes fall-28 {
+  34.136% {
+    transform: translate(67.6862%, 34.136vh) scale(0.3061);
+  }
+  to {
+    transform: translate(65.1311%, 100vh) scale(0.3061);
+  }
+}
+.animated-bg div:nth-child(29) {
+  opacity: 0.2393;
+  transform: translate(57.336%, -10px) scale(0.3511);
+  animation: fall-29 29s -21s linear infinite;
+}
+@keyframes fall-29 {
+  55.16% {
+    transform: translate(56.654%, 55.16vh) scale(0.3511);
+  }
+  to {
+    transform: translate(56.995%, 100vh) scale(0.3511);
+  }
+}
+.animated-bg div:nth-child(30) {
+  opacity: 0.797;
+  transform: translate(28.0411%, -10px) scale(0.1859);
+  animation: fall-30 21s -20s linear infinite;
+}
+@keyframes fall-30 {
+  71.024% {
+    transform: translate(23.8363%, 71.024vh) scale(0.1859);
+  }
+  to {
+    transform: translate(25.9387%, 100vh) scale(0.1859);
+  }
+}
